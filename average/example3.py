@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Using Python 3.4+ "statistics" module (also know as "stats" for 3.1-3.3)
 import statistics
 # Let's get a array of three numbers, for example

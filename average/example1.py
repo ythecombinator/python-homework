@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Let's calculate using "NumPy" which is package for working with scientific computing
 import numpy
 # Let's get a array of three numbers, for example

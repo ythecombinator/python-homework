@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Let's find the area of a circle based on its radius.
 
 # Let's use the "math" lib

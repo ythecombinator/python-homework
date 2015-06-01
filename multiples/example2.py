@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # This can be used to print "m" multiples of a "n" number
 print "Which number do you want to know the multiples of?"
 n = input("Type any value:")

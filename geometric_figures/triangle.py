@@ -1,5 +1,10 @@
+# -*- coding: utf-8 -*-
+
 # Let's find the area of a triangle using the Heron's Formula to calculate
 # the semi-perimeter and then the area of the triangle.
+
+# Let's use the "math" lib
+import math
 
 def area(a, b, c):
     # We should then calculate the semi-perimeter

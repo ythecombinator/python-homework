@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Using functional constructs, and avoiding NaNs
 
 def compute_average(vector):

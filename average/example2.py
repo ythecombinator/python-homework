@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Here we're not using any package
 
 # Let's get a array of three numbers, for example

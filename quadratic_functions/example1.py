@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # This program should solve the quadratic equation ax^2 + bx + c = 0
 import math
 
