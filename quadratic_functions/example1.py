@@ -22,8 +22,9 @@ else:
     x2 = (-b - math.sqrt(d)) / (2 * a)
     print "This equation has two solutions: ", x1, " and", x2
 
-# Example
-# Enter a: 1
-# Enter b: -1
-# Enter c: -20
-# This equation has two solutions: 5 and -4
+""" Example:
+Enter a: 1
+Enter b: -1
+Enter c: -20
+This equation has two solutions: 5 and -4
+"""
