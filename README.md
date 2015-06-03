@@ -5,9 +5,9 @@ at [IFCE](http://www.ifce.edu.br/), implemented using Python.
 
 ## Table of Contents
 
-- [Arithmetic Mean](https://github.com/mabrasil/python-homework/tree/master/arithmetic_mean)
+- [Arithmetic Mean](https://github.com/mabrasil/python-homework/tree/master/sequences/arithmetic_mean)
 - [Geometric Forms' areas](https://github.com/mabrasil/python-homework/tree/master/geometric_figures)
-- [Working with m-Multiples of a n-Number](https://github.com/mabrasil/python-homework/tree/master/multiples)
+- [Working with m-Multiples of a n-Number](https://github.com/mabrasil/python-homework/tree/master/sequences/multiples)
 - [Quadratic Functions](https://github.com/mabrasil/python-homework/tree/master/quadratic_functions)
 
 ## TODOs
