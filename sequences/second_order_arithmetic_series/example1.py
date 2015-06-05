@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+# Here we're making an arithmetic series of second order.
 
 # First term of the initial expression
 a1 = input("Which is the first term of the initial expression? ")
@@ -13,3 +16,5 @@ while a1 <= n:
   print a1
   a1 = a1 + b1
   b1 = b1 + r
+
+# TODO: Stop being lazy and make something more beautiful and that works with m-order sequences
