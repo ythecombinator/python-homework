@@ -5,15 +5,15 @@ at [IFCE](http://www.ifce.edu.br/), implemented using Python.
 
 ## Table of Contents
 
-- [Arithmetic Mean](https://github.com/mabrasil/python-homework/tree/master/sequences/arithmetic_mean)
-- [Biggest number of a sequence](https://github.com/mabrasil/python-homework/tree/master/biggest_number_of_a_sequence)
-- [Fibonacci](https://github.com/mabrasil/python-homework/tree/master/fibonacci)
-- [Geometric Forms' areas](https://github.com/mabrasil/python-homework/tree/master/geometric_figures)
-- [Quadratic Functions](https://github.com/mabrasil/python-homework/tree/master/quadratic_functions)
-- [Random Number Game](https://github.com/mabrasil/python-homework/tree/master/random_game)
-- [Solving a Second Order Arithmetic Series](https://github.com/mabrasil/python-homework/tree/master/second_order_arithmetic_series)
-- [Working with m-Multiples of a n-Number](https://github.com/mabrasil/python-homework/tree/master/sequences/multiples)
-- [Working with Prime Numbers](https://github.com/mabrasil/python-homework/tree/master/sequences/primes)
+- [Arithmetic Mean](/arithmetic_mean)
+- [Biggest number of a sequence](/sequences/biggest_number_of_a_sequence)
+- [Fibonacci](/sequences/fibonacci)
+- [Geometric Forms' areas](/geometric_figures)
+- [Quadratic Functions](/quadratic_functions)
+- [Random Number Game](/random_game)
+- [Solving a Second Order Arithmetic Series](/sequences/second_order_arithmetic_series)
+- [Working with m-Multiples of a n-Number](/sequences/multiples)
+- [Working with Prime Numbers](/sequences/primes)
 
 ## TODOs
 
