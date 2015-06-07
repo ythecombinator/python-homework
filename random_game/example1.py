@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Here we're going to make a game where the computer will think of a random number from an interval
 # given by the user, and ask (s)he to guess it. The program should tell you if each guess is higher
 # or lower. You win if you can guess the number within six tries.
