@@ -3,6 +3,7 @@ import turtle
 import colorsys
 
 jagger = turtle.Turtle()
+window = turtle.Screen()
 
 def drawRainbow():
 
@@ -15,3 +16,4 @@ def drawRainbow():
 
 drawRainbow()
 
+window.exitonclick()
