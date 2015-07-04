@@ -109,6 +109,13 @@ class FractalTree():
       else:
           drawFractal(length, depth-1)
 
+  def drawSnowflake(self, length, depth):
+    self.drawFractal(length, depth-1)
+    fun.left(120)
+    self.drawFractal(length, depth-1)
+    fun.left(120)
+    self.drawFractal(length, depth-1)
+
 window = turtle.Screen()
 
 fun = turtle.Turtle()
