@@ -119,3 +119,7 @@ class FractalTree():
 window = turtle.Screen()
 
 fun = turtle.Turtle()
+
+n = 14
+
+
