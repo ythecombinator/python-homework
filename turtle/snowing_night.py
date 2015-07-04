@@ -88,6 +88,27 @@ class FractalTree():
     self.drawTree(n - 1, random.uniform(0.70, 0.95) * length, x1, y1, angle1, newPenSize)
     self.drawTree(n - 1, random.uniform(0.70, 0.95) * length, x2, y2, angle2, newPenSize)
 
+  def drawFractal(self, length, depth):
+      if depth == 1:
+          fun.forward(length)
+      else:
+          drawFractal(length, depth-1)
+      fun.right(60)
+      if depth == 1:
+          fun.forward(length)
+      else:
+          drawFractal(length, depth-1)
+      fun.left(120)
+      if depth == 1:
+          fun.forward(length)
+      else:
+          drawFractal(length, depth-1)
+      fun.right(60)
+      if depth == 1:
+          fun.forward(length)
+      else:
+          drawFractal(length, depth-1)
+
 window = turtle.Screen()
 
 fun = turtle.Turtle()
