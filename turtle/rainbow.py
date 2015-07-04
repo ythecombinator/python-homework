@@ -5,6 +5,9 @@ import colorsys
 jagger = turtle.Turtle()
 window = turtle.Screen()
 
+turtle.title("She's A Rainbow")
+
+
 def drawRainbow():
 
   for i in range(1000):
