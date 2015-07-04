@@ -3,10 +3,10 @@ import turtle
 import colorsys
 
 jagger = turtle.Turtle()
+
 window = turtle.Screen()
 
 turtle.title("She's A Rainbow")
-
 
 def drawRainbow():
 
@@ -16,6 +16,12 @@ def drawRainbow():
       jagger.color(color)
       jagger.forward(i)
       jagger.right(98)
+
+  jagger.color("black")
+  jagger.hideturtle()
+  jagger.penup()
+  jagger.setpos((20,5))
+  jagger.write("Have you seen her dressed in blue?",True, align="center", font=("Arial", 20, "normal"))
 
 drawRainbow()
 
