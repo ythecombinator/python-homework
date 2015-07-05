@@ -3,7 +3,7 @@
 # It should use the turtle module
 import turtle
 
-# Since he's one of the songwriters, he deserves.
+# Let's give it a name.
 star = turtle.Turtle()
 
 # We'll use this to exitonclick().
