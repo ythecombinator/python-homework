@@ -17,7 +17,8 @@ class someNights():
     turtle.mode("logo")
     # Set a dark color for the background.
     turtle.bgcolor("#2c3e50")
-    fun.speed(10)
+    # Set the fastest speed
+    fun.speed(0)
     # Set a the branches' color.
     fun.color("#825a2c")
     fun.pensize(10)

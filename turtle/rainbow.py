@@ -18,6 +18,9 @@ jagger = turtle.Turtle()
 # We'll use this to exitonclick().
 window = turtle.Screen()
 
+# Set the fastest speed
+spiral.speed(0)
+
 # The song which inspirates this.
 turtle.title("She's A Rainbow")
 

@@ -21,6 +21,9 @@ n = 100
 # Define how much turtle walks forward
 size = 90
 
+# Set the fastest speed
+star.speed(0)
+
 # The main function
 def drawStar(n, size):
 

@@ -24,6 +24,9 @@ window = turtle.Screen()
 # Actually an iteration of level 10 would be good enough
 n = 13
 
+# Set the fastest speed
+dragon.speed(0)
+
 # Some definitions
 s = "F"
 rep1 = "-F++G-"

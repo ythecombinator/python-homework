@@ -15,6 +15,9 @@ turtle.title("A pointless mandala")
 # Set a dark color for the background.
 turtle.bgcolor("#2c3e50")
 
+# Set the fastest speed
+mandala.speed(0)
+
 # Define the number of iterations
 n = 100
 
