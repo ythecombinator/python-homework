@@ -18,8 +18,11 @@ jagger = turtle.Turtle()
 # We'll use this to exitonclick().
 window = turtle.Screen()
 
+# Set a dark color for the background.
+turtle.bgcolor("#2c3e50")
+
 # Set the fastest speed
-spiral.speed(0)
+jagger.speed(0)
 
 # The song which inspirates this.
 turtle.title("She's A Rainbow")
@@ -36,11 +39,11 @@ def drawRainbow():
       jagger.right(98)
 
   # After it draws the main part then sets a color and font to write a verse of the song.
-  jagger.color("black")
+  jagger.color("#ecf0f1")
   jagger.hideturtle()
   jagger.penup()
-  jagger.setpos((20,5))
-  jagger.write("Have you seen her dressed in blue?",True, align="center", font=("Arial", 20, "normal"))
+  jagger.setpos((20,0))
+  jagger.write("Have you seen her dressed in blue?",True, align="center", font=("Sans", 26, "normal"))
 
 # Execute the main function.
 drawRainbow()
