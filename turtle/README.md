@@ -20,6 +20,10 @@ Here I wrote some examples of drawings using it.
 
 ![Snowing Night](https://github.com/mabrasil/python-homework/blob/master/turtle/images/snowing_night.png?raw=true)
 
+## Spiral
+
+![Spiral](https://github.com/mabrasil/python-homework/blob/master/turtle/images/spiral.png?raw=true)
+
 ## Star
 
 ![Star](https://github.com/mabrasil/python-homework/blob/master/turtle/images/star.png?raw=true)
