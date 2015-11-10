@@ -1,0 +1,15 @@
+### Haskell ###
+
+dist
+cabal-dev
+*.hs
+*.o
+*.hi
+
+### In-class activities ###
+
+doing
+
+### General ###
+
+*.exe
