@@ -1,58 +1,44 @@
 # -*- coding: utf-8 -*-
 
-# Here we're going to make a game where the computer will think of a random number from an interval
-# given by the user, and ask (s)he to guess it. The program should tell you if each guess is higher
-# or lower. You win if you can guess the number within six tries.
-
-# It is intended to demonstrate a nice variety of concepts seen in class, such as "import", "while"
-# and "if" statements; Modules; Conditions; Blocks; Booleans; Comparison operators; "break" keyword;
-# the random.randint() function and the "os" module.
-
 # Let's import random to generate pseudo-random numbers
 import random
-# Let's import OS to use a OS dependent functionality (exit)
-import os
-
+# Let's import string to get all the characters that are considered lowercase letters
 import string
 
-# Let's declare some helpful variables
-random_number = random.choice(string.lowercase)
-list(random_number)
-tries = 0
-tries_remaining = 6
-has_won = False
+# Let's set the initial value of used chances to 0
+guesses_taken = 0
 
-# Functions provide better modularity for our app and good code reusing.
+# Making a list of letters
+letters = list(string.lowercase)
 
-# Here we have a function to make the necessary tests to the user input
-# (if it's in the interval, if it's lower or bigger... )
-def test_number(guess_num, tries, tries_remaining, has_won):
+# Chosing a random letter from the just generated list
+letter = random.choice(letters)
 
-    if guess_num == random_number:
-        print("Congratulations! You are correct! It took you {} tries.".format(tries))
-        has_won = True
+# Explanation test
+print('Advinhe qual letra do alfabeto eu pensei. (Digite da seguinte forma: \'<letra minuscula>\') \n')
 
-    else:
-        if tries_remaining > 0:
-            print("I'm sorry, that number is high. You have {} tries remaining.".format(int(tries_remaining)))
-        else:
-            print("You are out of tries. The number was {}".format(random_number))
-            os.exit()
+# Main loop
+while guesses_taken < 10:
 
-    return (tries, tries_remaining, has_won)
+  guess = input("Diga a letra: ")
 
-# Here we have a function to perform the main cicle of the program
-def main(random_number, tries, tries_remaining, has_won):
+  guesses_taken = guesses_taken + 1
 
-    while tries < 6:
-        guess = input("Guess a random number in the given interval:")
-        tries += 1
-        tries_remaining -= 1
+  # Giving the user some tips
+  if letters.index(guess) < letters.index(letter):
+      print('Tente uma que venha depois dessa.')
 
-        guess_num = guess
-        tries, tries_remaining, has_won = test_number(guess_num, tries, tries_remaining, has_won)
+  elif letters.index(guess) > letters.index(letter):
+      print('Tente uma que venha antes dessa.')
 
-        if has_won:
-            break
+  else:
+      break
 
-main(random_number, tries, tries_remaining, has_won)
+# Final messages
+if guess == letter:
+    guesses_taken = str(guesses_taken)
+    print('Bom trabalho! Voce advinhou em ' + guesses_taken + ' tentativas!')
+
+if guess != letter:
+    letter = str(letter)
+    print('Não deu. A letra desejada era: ' + letter)
