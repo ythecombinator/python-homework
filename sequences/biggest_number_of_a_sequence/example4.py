@@ -7,5 +7,5 @@ def maximum (list):
 
  return reduce(lambda a,b: a if (a > b) else b, list)
 
-list = input("Diga a lista: ")
+list = input("Tell me a list: ")
 print (maximum(list))

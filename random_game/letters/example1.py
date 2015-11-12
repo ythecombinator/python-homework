@@ -15,21 +15,21 @@ letters = list(string.lowercase)
 letter = random.choice(letters)
 
 # Explanation test
-print('Advinhe qual letra do alfabeto eu pensei. (Digite da seguinte forma: \'<letra minuscula>\') \n')
+print('Guess a letter. (Type as the following: \'<letra minuscula>\') \n')
 
 # Main loop
 while guesses_taken < 10:
 
-  guess = input("Diga a letra: ")
+  guess = input("What's your try? ")
 
   guesses_taken = guesses_taken + 1
 
   # Giving the user some tips
   if letters.index(guess) < letters.index(letter):
-      print('Tente uma que venha depois dessa.')
+      print('Why don\'t you try one that comes after the one you\'ve just tried?')
 
   elif letters.index(guess) > letters.index(letter):
-      print('Tente uma que venha antes dessa.')
+      print('Why don\'t you try one that comes before the one you\'ve just tried?')
 
   else:
       break
@@ -37,8 +37,8 @@ while guesses_taken < 10:
 # Final messages
 if guess == letter:
     guesses_taken = str(guesses_taken)
-    print('Bom trabalho! Voce advinhou em ' + guesses_taken + ' tentativas!')
+    print('Good job! It took you only ' + guesses_taken + ' tries!')
 
 if guess != letter:
     letter = str(letter)
-    print('Não deu. A letra desejada era: ' + letter)
+    print('Sorry. The right answer was: ' + letter)
